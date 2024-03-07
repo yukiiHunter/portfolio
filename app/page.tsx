@@ -1,95 +1,49 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import './style.css';
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    return (
+        <main className="main">
+            <div className="navbar">
+                <div className="nav-logo">
+                    <img src="/assets/img/monogram 3.png" className="nav-logo-1" alt="" />
+                </div>
+                <div className="menu">
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+                </div>
+            </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+            <div className="content">
+                <div className="banner-1">
+                    <img src="/assets/img/banner-img.png" alt="" className="banner-img-1" />
+                    <img src="/assets/img/monogram white.png" alt="" className="banner-logo" />
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+                    <div className="social">
+                    </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
+                    <h4 className="name">Muhammad <span>Daffa</span> Athalla</h4>
+                    <h6 className="jobs">WEB DEVELOPER <span>|</span> LIVE2D SPECIALIST</h6>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+                    <div className="act">
+                        <a href="" className="commis">COMMISSION</a>
+                        <a href="" className="portfolio">PORTFOLIO</a>
+                    </div>
+                </div>
+                <div className="banner-2">
+                    <div className="page-count">
+                        <div className="count">01</div>
+                        <div className="gap"></div>
+                        <div className="pg-name">INTRODUCTION</div>
+                    </div>
+                    <div className="about">
+                        <h4 className="t-about">ABOUT ME</h4>
+                        <hr />
+                        <p className="d-about">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam voluptas sapiente ut repudiandae, rerum alias iusto tempora mollitia rem sed corrupti odit cupiditate? Nam amet sequi laboriosam sit architecto animi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    )
 }

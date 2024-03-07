@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Nouvelle';
+    src: url(/assets/nouvelle_vague_final.ttf);
+}
+
+@font-face {
+    font-family: 'Zanna';
+    src: url(/assets/Zanna-Personal-Use.otf);
+}
+
+.main {
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-logo {
+    margin-left: 3vw;
+}
+
+.nav-logo-1 {
+    width: 5vw;
+}
+
+/* BANNER 1*/
+
+.banner-1 {
+    background-color: #2b2b2b;
+    height: 90vh;
+}
+
+.banner-img-1 {
+    height: 90vh;
+}
+
+.banner-logo {
+    position: absolute;
+    top: 8vw;
+    left: 51vw;
+
+    width: 22vw;
+    height: 22vw;
+}
+
+.fa-instagram {
+    color: #FFD467;
+    height: 100vw;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    letter-spacing: 0.3vw;
+    color: white;
+    font-family: 'Nouvelle', sans-serif;
+
+    position: absolute;
+    top: 28vw;
+    left: 38vw;
+}
+
+.name span {
+    color: #FFD467;
+}
+
+.jobs {
+    font-family: 'Zanna';
+    font-size: 1.3vw;
+    font-weight: 200;
+    letter-spacing: 0.2vw;
+
+    position: absolute;
+    top: 33vw;
+    left: 42.5vw;
+}
+
+.jobs span {
+    color: #FFD467;
+    font-size: 1.8vw;
+    font-weight: 200;
+    margin: 0 3vw;
+}
+
+.act {
+    font-family: 'Zanna';
+}
+
+.commis, .portfolio {
+    padding: 0.3vw 2.5vw;
+    border: 3px solid #FFD467;
+    border-radius: 1.5vw;
+    font-size: 1.2vw;
+
+    position: relative;
+    top: -10vw;
+    left: 47vw;
+    margin-right: 3vw;
+}
+
+.commis {
+    padding: 0.4vw 2.5vw;
+    background-color: #FFD467;
+    color: #2b2b2b;
+}
+
+.portfolio {
+    padding: 0.4vw 2.8vw;
+    color: #FFD467;
+}
+
+/* BANNER 2 */
+
+.banner-2 {
+    background-color: #fff;
+    height: 100vh;
+}
